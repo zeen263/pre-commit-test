@@ -25,7 +25,7 @@ jobs:
       # print current OS version
       - name: checking environment 
         run: |
-          lsb_release -a
+          cat /etc/os-release
           python --version
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
