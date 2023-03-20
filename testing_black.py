@@ -8,3 +8,4 @@ def asdfasfd(dddf):
 
     print("aaaaa", sep="dfds")
     a = 3
+    n = 2
